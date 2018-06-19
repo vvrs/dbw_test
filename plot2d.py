@@ -15,7 +15,7 @@ points = []
 x = 0
 while x<=2*np.pi:
     # points.append((40*((1-np.sin(x))*np.cos(x)),40*(1-np.sin(x))))
-    points.append((40*x*np.sin(x),40*x*np.cos(x)))
+    points.append((20*np.sin(x),20*np.cos(x)))
     x += 0.05
 
 

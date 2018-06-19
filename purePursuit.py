@@ -17,7 +17,7 @@ points = []
 x = 0
 while x< 2*np.pi:
 	#points.append((40*((1-sin(x))*cos(x)),(1-sin(x))))
-	points.append((40*x*sin(x),40*x*cos(x)))
+	points.append((20*sin(x),20*cos(x)))
 	x += 0.01
 
 points = np.array(points)
@@ -76,7 +76,7 @@ class purePursuit:
 	def __init__(self,points):
 
 		rospy.loginfo("initializing the node...")
-		
+		time.sleep(0.5)
 		rospy.init_node("purePursuit_node",anonymous=True)
 
 		self.look_ahead_distance = 10
@@ -126,6 +126,7 @@ class purePursuit:
 			# self.car_current_x = data.vector.x
 			# self.car_current_y = data.vector.y
 			self.init_xy = True
+			print "Initial position:: ",self.car_init_x,self.car_init_y 
 
 		else:
 			self.car_current_x = data.vector.x - self.car_init_x
@@ -141,7 +142,8 @@ class purePursuit:
 			self.init_heading = True
 
 		else:
-			self.car_current_heading = np.deg2rad(data.data) - (np.pi/2)
+			# self.car_current_heading = np.deg2rad(data.data) - (np.pi/2)
+			self.car_current_heading = (np.pi/2) - np.deg2rad(data.data)
 
 	def callback_twist(self,data):
 		self.current_speed = data.twist.linear.x
@@ -153,9 +155,9 @@ class purePursuit:
 
 		L = 0
 		dind = ind
-		print self.current_speed
+		print "current speed {0} m/s (from twist)".format(self.current_speed)
 		Lf = self.k*self.current_speed + self.look_ahead_distance
-		while L<Lf and dind < self.points.shape[0]:
+		while L<Lf and dind < self.points.shape[0]-1:
 			dx = self.points[dind+1][0] - self.points[dind][0]
 			dy = self.points[dind+1][1] - self.points[dind][1]
 
@@ -177,12 +179,11 @@ class purePursuit:
 		distance = sqrt((self.car_current_x-goal_x)**2 + (self.car_current_y-goal_y)**2)
 		distance2 = sqrt((near_x-goal_x)**2 + (near_y-goal_y)**2)
 
-		print "initial position:: ",self.car_init_x,self.car_init_y 
-		print "car current position :: ",self.car_current_x,self.car_current_y
-		print "goal current position :: ",goal_x,goal_y
-		print "nearest point on the path:: ",near_x,near_y
-		print "distance:: ",distance
-		print "distance2:: ",distance2
+		print "Car current position :: ",self.car_current_x,self.car_current_y
+		print "Goal position :: ",goal_x,goal_y
+		print "Nearest point on the path:: ",near_x,near_y
+		print "Distance to goal :: ",distance
+		print "Look ahead distance:: ",distance2
 
 		desired_pose = atan2((goal_y-self.car_current_y),(goal_x-self.car_current_x))
 
@@ -248,11 +249,14 @@ class purePursuit:
 		time.sleep(1)
 		reset_world = rospy.ServiceProxy('/gazebo/reset_world', Empty)
 		reset_world()
-		print "exiting..."
-		return
+		# print "exiting..."
+		rospy.signal_shutdown('Quit')
+		# print "is shutdown :: ",rospy.is_shutdown()
+		# return
 
 def main():
 	global points
+
 	controller_object = purePursuit(points)
 
 	r = rospy.Rate(50)
