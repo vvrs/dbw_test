@@ -1,0 +1,18 @@
+digraph G {
+"vehicle/base_footprint" -> "vehicle/base_link"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1420.351 sec old)\nBuffer length: 0.000 sec\n"];
+"vehicle/base_footprint" -> "vehicle/front_camera_optical"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1420.351 sec old)\nBuffer length: 0.000 sec\n"];
+"vehicle/front_camera_optical" -> "vehicle/front_camera"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1420.351 sec old)\nBuffer length: 0.000 sec\n"];
+"vehicle/base_footprint" -> "vehicle/perfect_gps"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1420.351 sec old)\nBuffer length: 0.000 sec\n"];
+"vehicle/base_footprint" -> "vehicle/velodyne_base_link"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1420.351 sec old)\nBuffer length: 0.000 sec\n"];
+"vehicle/velodyne_base_link" -> "vehicle/velodyne"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1420.351 sec old)\nBuffer length: 0.000 sec\n"];
+"vehicle/base_link" -> "vehicle/steer_fl"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 48.100 Hz\nMost recent transform: 1420.310 ( 0.041 sec old)\nBuffer length: 3.368 sec\n"];
+"vehicle/base_link" -> "vehicle/steer_fr"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 48.100 Hz\nMost recent transform: 1420.310 ( 0.041 sec old)\nBuffer length: 3.368 sec\n"];
+"vehicle/steer_fl" -> "vehicle/wheel_fl"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 48.100 Hz\nMost recent transform: 1420.310 ( 0.041 sec old)\nBuffer length: 3.368 sec\n"];
+"vehicle/steer_fr" -> "vehicle/wheel_fr"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 48.100 Hz\nMost recent transform: 1420.310 ( 0.041 sec old)\nBuffer length: 3.368 sec\n"];
+"vehicle/base_link" -> "vehicle/wheel_rl"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 48.100 Hz\nMost recent transform: 1420.310 ( 0.041 sec old)\nBuffer length: 3.368 sec\n"];
+"vehicle/base_link" -> "vehicle/wheel_rr"[label="Broadcaster: /vehicle/state_publisher\nAverage rate: 48.100 Hz\nMost recent transform: 1420.310 ( 0.041 sec old)\nBuffer length: 3.368 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1420.351"[ shape=plaintext ] ;
+ }->"vehicle/base_footprint";
+}

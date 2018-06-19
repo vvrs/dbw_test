@@ -186,11 +186,11 @@ class purePursuit:
 
 		desired_pose = atan2((goal_y-self.car_current_y),(goal_x-self.car_current_x))
 
-		print "desired_pose:: ",desired_pose
-		print "current heading:: ",self.car_current_heading
+		print "desired_pose:: {0} ({1}) ".format(desired_pose,degrees(desired_pose))
+		print "current heading:: {0} ({1}) ".format(self.car_current_heading,degrees(self.car_current_heading))
 		error = (desired_pose - self.car_current_heading)
 
-		# print "heading error:: ",error
+		print "heading error:: {0} ({1}) ".format(error,degrees(error))
 
 		# if error < -3.14159:
 		# 	# print "error is below -pi"

@@ -1,0 +1,870 @@
+0.0
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0073236549506 -0.00195529218763
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  10.0000854782
+distance2::  10.0
+desired_pose:: 1.32155429312 (75.719483393) 
+current heading:: 0.0337100213879 (1.93144195282) 
+heading error:: 1.28784427173 (73.7880414402) 
+throttle and steering angle ::  5.0 6.85395996397
+
+
+
+0.0
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0079009316396 -0.00200194865465
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99998831277
+distance2::  10.0
+desired_pose:: 1.32161138792 (75.7227546843) 
+current heading:: 0.0337281563975 (1.93248101233) 
+heading error:: 1.28788323152 (73.790273672) 
+throttle and steering angle ::  5.0 6.85402696464
+
+
+
+0.0
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0079009316396 -0.00200194865465
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99998831277
+distance2::  10.0
+desired_pose:: 1.32161138792 (75.7227546843) 
+current heading:: 0.0337281563975 (1.93248101233) 
+heading error:: 1.28788323152 (73.790273672) 
+throttle and steering angle ::  5.0 6.85402696464
+
+
+
+0.216666668653
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0125164829078 -0.00220750365406
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99905028196
+distance2::  10.0
+desired_pose:: 1.3220637996 (75.7486759641) 
+current heading:: 0.033739884281 (1.93315297056) 
+heading error:: 1.28832391532 (73.8155229935) 
+throttle and steering angle ::  4.78333333135 6.8419890715
+
+
+
+0.341666668653
+initial position::  500000.805258 4982950.35052
+car current position ::  0.018133981328 -0.00244493037462
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99789902488
+distance2::  10.0
+desired_pose:: 1.32261422225 (75.7802128591) 
+current heading:: 0.0337534535531 (1.93393043258) 
+heading error:: 1.2888607687 (73.8462824265) 
+throttle and steering angle ::  4.65833333135 6.83554638523
+
+
+
+0.458333343267
+initial position::  500000.805258 4982950.35052
+car current position ::  0.026179229375 -0.00273200217634
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99620414622
+distance2::  10.0
+desired_pose:: 1.32340144747 (75.8253175418) 
+current heading:: 0.0337534535531 (1.93393043258) 
+heading error:: 1.28964799392 (73.8913871092) 
+throttle and steering angle ::  4.54166665673 6.83003153857
+
+
+
+0.577777802944
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0366377697792 -0.00309511926025
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99400036571
+distance2::  10.0
+desired_pose:: 1.3244249653 (75.8839607937) 
+current heading:: 0.0337775349324 (1.93531019398) 
+heading error:: 1.29064743037 (73.9486505997) 
+throttle and steering angle ::  4.42222219706 6.82472113834
+
+
+
+0.577777802944
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0366377697792 -0.00309511926025
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99400036571
+distance2::  10.0
+desired_pose:: 1.3244249653 (75.8839607937) 
+current heading:: 0.0337929318171 (1.93619237049) 
+heading error:: 1.29063203349 (73.9477684232) 
+throttle and steering angle ::  4.42222219706 6.82469501185
+
+
+
+0.699999988079
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0495013822801 -0.00355467386544
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.99131671085
+distance2::  10.0
+desired_pose:: 1.3256847855 (75.9561431736) 
+current heading:: 0.0338064431918 (1.93696651524) 
+heading error:: 1.2918783423 (74.0191766583) 
+throttle and steering angle ::  4.30000001192 6.81964388434
+
+
+
+0.630555570126
+initial position::  500000.805258 4982950.35052
+car current position ::  0.063290067832 -0.00400513131171
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.98841678326
+distance2::  10.0
+desired_pose:: 1.32703493536 (76.0335010623) 
+current heading:: 0.0338534981877 (1.93966256791) 
+heading error:: 1.29318143717 (74.0938384944) 
+throttle and steering angle ::  4.36944442987 6.8259065639
+
+
+
+0.875
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0936544538126 -0.00504617672414
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.98214270752
+distance2::  10.0
+desired_pose:: 1.33001205458 (76.2040774289) 
+current heading:: 0.0338172829852 (1.93758758965) 
+heading error:: 1.29619477159 (74.2664898392) 
+throttle and steering angle ::  4.125 6.81663670572
+
+
+
+0.875
+initial position::  500000.805258 4982950.35052
+car current position ::  0.0936544538126 -0.00504617672414
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.98214270752
+distance2::  10.0
+desired_pose:: 1.33001205458 (76.2040774289) 
+current heading:: 0.0338172829852 (1.93758758965) 
+heading error:: 1.29619477159 (74.2664898392) 
+throttle and steering angle ::  4.125 6.81663670572
+
+
+
+0.852777779102
+initial position::  500000.805258 4982950.35052
+car current position ::  0.111584188708 -0.00556833855808
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.97838961376
+distance2::  10.0
+desired_pose:: 1.33176955365 (76.3047747084) 
+current heading:: 0.0337508035599 (1.93377859916) 
+heading error:: 1.29801875009 (74.3709961092) 
+throttle and steering angle ::  4.1472222209 6.82095329871
+
+
+
+1.07500004768
+initial position::  500000.805258 4982950.35052
+car current position ::  0.150246752601 -0.00675874017179
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.36894719
+distance2::  10.4
+desired_pose:: 1.32496742941 (75.9150416974) 
+current heading:: 0.033504501543 (1.9196665331) 
+heading error:: 1.29146292787 (73.9953751643) 
+throttle and steering angle ::  3.92499995232 6.79705836531
+
+
+
+1.01666665077
+initial position::  500000.805258 4982950.35052
+car current position ::  0.17174250586 -0.00729009415954
+goal current position ::  2.47403959255 9.68912421711
+nearest point on the path::  0.0 0.0
+distance::  9.96599329576
+distance2::  10.0
+desired_pose:: 1.33767522965 (76.6431450179) 
+current heading:: 0.0333499905675 (1.91081370632) 
+heading error:: 1.30432523908 (74.7323313115) 
+throttle and steering angle ::  3.98333334923 6.82165554814
+
+
+
+1.13055551052
+initial position::  500000.805258 4982950.35052
+car current position ::  0.193322792707 -0.00783998705447
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3595982463
+distance2::  10.4
+desired_pose:: 1.32902591183 (76.1475756117) 
+current heading:: 0.0331230224297 (1.89780938994) 
+heading error:: 1.2959028894 (74.2497662217) 
+throttle and steering angle ::  3.86944448948 6.80125448869
+
+
+
+1.13055551052
+initial position::  500000.805258 4982950.35052
+car current position ::  0.217269829125 -0.00841805152595
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3544524685
+distance2::  10.4
+desired_pose:: 1.33128474425 (76.2769971759) 
+current heading:: 0.0327639450169 (1.87723576967) 
+heading error:: 1.29852079924 (74.3997614062) 
+throttle and steering angle ::  3.86944448948 6.80557761111
+
+
+
+1.15555560589
+initial position::  500000.805258 4982950.35052
+car current position ::  0.241480587632 -0.00898051913828
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.349282435
+distance2::  10.4
+desired_pose:: 1.3335702255 (76.4079456055) 
+current heading:: 0.0323870242685 (1.85563980157) 
+heading error:: 1.30118320123 (74.5523058039) 
+throttle and steering angle ::  3.84444439411 6.80847614753
+
+
+
+1.23611116409
+initial position::  500000.805258 4982950.35052
+car current position ::  0.265246672905 -0.00948405545205
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3442127238
+distance2::  10.4
+desired_pose:: 1.33581484649 (76.5365529148) 
+current heading:: 0.0318173879561 (1.82300204502) 
+heading error:: 1.30399745853 (74.7135508698) 
+throttle and steering angle ::  3.76388883591 6.80834308546
+
+
+
+1.23611116409
+initial position::  500000.805258 4982950.35052
+car current position ::  0.265246672905 -0.00948405545205
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3442127238
+distance2::  10.4
+desired_pose:: 1.33581484649 (76.5365529148) 
+current heading:: 0.0318173879561 (1.82300204502) 
+heading error:: 1.30399745853 (74.7135508698) 
+throttle and steering angle ::  3.76388883591 6.80834308546
+
+
+
+1.3166667223
+initial position::  500000.805258 4982950.35052
+car current position ::  0.318525371607 -0.010313780047
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3327459205
+distance2::  10.4
+desired_pose:: 1.34084815796 (76.8249404188) 
+current heading:: 0.0305264035991 (1.74903408994) 
+heading error:: 1.31032175436 (75.0759063288) 
+throttle and steering angle ::  3.6833332777 6.81371207089
+
+
+
+1.40555560589
+initial position::  500000.805258 4982950.35052
+car current position ::  0.345614545222 -0.0105855586007
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3268700322
+distance2::  10.4
+desired_pose:: 1.3434082863 (76.9716249677) 
+current heading:: 0.0296890275385 (1.7010559758) 
+heading error:: 1.31371925876 (75.2705689919) 
+throttle and steering angle ::  3.59444439411 6.81384406147
+
+
+
+1.52499997616
+initial position::  500000.805258 4982950.35052
+car current position ::  0.375025253103 -0.0108647709712
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3205518478
+distance2::  10.4
+desired_pose:: 1.34619075517 (77.1310486906) 
+current heading:: 0.0287231200509 (1.64571355336) 
+heading error:: 1.31746763512 (75.4853351373) 
+throttle and steering angle ::  3.47500002384 6.81267021037
+
+
+
+1.52499997616
+initial position::  500000.805258 4982950.35052
+car current position ::  0.406124304107 -0.0110385101289
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3138394588
+distance2::  10.4
+desired_pose:: 1.34913404757 (77.2996869233) 
+current heading:: 0.0276385682212 (1.58357331086) 
+heading error:: 1.32149547935 (75.7161136124) 
+throttle and steering angle ::  3.47500002384 6.81876338386
+
+
+
+1.59722220898
+initial position::  500000.805258 4982950.35052
+car current position ::  0.406124304107 -0.0110385101289
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3138394588
+distance2::  10.4
+desired_pose:: 1.34913404757 (77.2996869233) 
+current heading:: 0.0276385682212 (1.58357331086) 
+heading error:: 1.32149547935 (75.7161136124) 
+throttle and steering angle ::  3.40277779102 6.81457296193
+
+
+
+1.71388888359
+initial position::  500000.805258 4982950.35052
+car current position ::  0.438671815093 -0.0111428173259
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.3068345708
+distance2::  10.4
+desired_pose:: 1.35221687231 (77.4763197699) 
+current heading:: 0.0262206953174 (1.50233517759) 
+heading error:: 1.325996177 (75.9739845923) 
+throttle and steering angle ::  3.28611111641 6.81449886262
+
+
+
+1.79722225666
+initial position::  500000.805258 4982950.35052
+car current position ::  0.507566109591 -0.0108919637278
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.291869829
+distance2::  10.4
+desired_pose:: 1.35874640861 (77.8504346421) 
+current heading:: 0.0229841951778 (1.31689737919) 
+heading error:: 1.33576221344 (76.533537263) 
+throttle and steering angle ::  3.20277774334 6.82375342895
+
+
+
+1.79722225666
+initial position::  500000.805258 4982950.35052
+car current position ::  0.507566109591 -0.0108919637278
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.291869829
+distance2::  10.4
+desired_pose:: 1.35874640861 (77.8504346421) 
+current heading:: 0.0229841951778 (1.31689737919) 
+heading error:: 1.33576221344 (76.533537263) 
+throttle and steering angle ::  3.10555553436 6.82375342895
+
+
+
+2.01111102104
+initial position::  500000.805258 4982950.35052
+car current position ::  0.542613463185 -0.0105497278273
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2842158742
+distance2::  10.4
+desired_pose:: 1.36207095777 (78.0409172774) 
+current heading:: 0.0211242250432 (1.21032894046) 
+heading error:: 1.34094673272 (76.830588337) 
+throttle and steering angle ::  2.98888897896 6.81861475894
+
+
+
+1.95000004768
+initial position::  500000.805258 4982950.35052
+car current position ::  0.581786096387 -0.0100380172953
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2756692529
+distance2::  10.4
+desired_pose:: 1.36579008085 (78.2540073333) 
+current heading:: 0.0189293499564 (1.08457186143) 
+heading error:: 1.34686073089 (77.1694354719) 
+throttle and steering angle ::  3.04999995232 6.83020073509
+
+
+
+1.95000004768
+initial position::  500000.805258 4982950.35052
+car current position ::  0.621828024974 -0.00922797620296
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2667989282
+distance2::  10.4
+desired_pose:: 1.36959249587 (78.471869666) 
+current heading:: 0.016611670563 (0.95177861392) 
+heading error:: 1.3529808253 (77.5200910521) 
+throttle and steering angle ::  3.04999995232 6.83831310259
+
+
+
+2.05277776718
+initial position::  500000.805258 4982950.35052
+car current position ::  0.661876174156 -0.00829872768372
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2579591876
+distance2::  10.4
+desired_pose:: 1.37339974741 (78.6900091109) 
+current heading:: 0.0139515001667 (0.799362077428) 
+heading error:: 1.35944824724 (77.8906470335) 
+throttle and steering angle ::  2.94722223282 6.8406868306
+
+
+
+2.18611121178
+initial position::  500000.805258 4982950.35052
+car current position ::  0.710737715068 -0.00690191891044
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2471176553
+distance2::  10.4
+desired_pose:: 1.37804875293 (78.9563775059) 
+current heading:: 0.0106344208644 (0.609307433098) 
+heading error:: 1.36741433206 (78.3470700728) 
+throttle and steering angle ::  2.81388878822 6.84287466628
+
+
+
+2.22222232819
+initial position::  500000.805258 4982950.35052
+car current position ::  0.791437057022 -0.00392224267125
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2290369382
+distance2::  10.4
+desired_pose:: 1.38573617458 (79.3968343219) 
+current heading:: 0.00460728979432 (0.263978260208) 
+heading error:: 1.38112888478 (79.1328560617) 
+throttle and steering angle ::  2.77777767181 6.85693051069
+
+
+
+2.33333325386
+initial position::  500000.805258 4982950.35052
+car current position ::  0.791437057022 -0.00392224267125
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2290369382
+distance2::  10.4
+desired_pose:: 1.38573617458 (79.3968343219) 
+current heading:: 0.00460728979432 (0.263978260208) 
+heading error:: 1.38112888478 (79.1328560617) 
+throttle and steering angle ::  2.66666674614 6.8505046265
+
+
+
+2.21666669846
+initial position::  500000.805258 4982950.35052
+car current position ::  0.837071927672 -0.00186836440116
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.2187178519
+distance2::  10.4
+desired_pose:: 1.39008876357 (79.6462193012) 
+current heading:: 0.000951929589373 (0.0545415478647) 
+heading error:: 1.38913683398 (79.5916777533) 
+throttle and steering angle ::  2.78333330154 6.86615620636
+
+
+
+2.31111121178
+initial position::  500000.805258 4982950.35052
+car current position ::  0.92768963374 0.00309673510492
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.1979291239
+distance2::  10.4
+desired_pose:: 1.39874256984 (80.1420458771) 
+current heading:: -0.00690751558429 (-0.395771489901) 
+heading error:: 1.40565008542 (80.537817367) 
+throttle and steering angle ::  2.68888878822 6.87782464142
+
+
+
+2.31111121178
+initial position::  500000.805258 4982950.35052
+car current position ::  0.92768963374 0.00309673510492
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.1979291239
+distance2::  10.4
+desired_pose:: 1.39874256984 (80.1420458771) 
+current heading:: -0.00690751558429 (-0.395771489901) 
+heading error:: 1.40565008542 (80.537817367) 
+throttle and steering angle ::  2.68888878822 6.87782464142
+
+
+
+2.47222232819
+initial position::  500000.805258 4982950.35052
+car current position ::  0.974230923865 0.00608194619417
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.1871207458
+distance2::  10.4
+desired_pose:: 1.40319360002 (80.3970711209) 
+current heading:: -0.0112342603717 (-0.643675705252) 
+heading error:: 1.41442786039 (81.0407468261) 
+throttle and steering angle ::  2.52777767181 6.87693469274
+
+
+
+2.46388888359
+initial position::  500000.805258 4982950.35052
+car current position ::  1.07248944585 0.0135865211487
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.16377982
+distance2::  10.4
+desired_pose:: 1.41260261728 (80.9361680991) 
+current heading:: -0.021061850604 (-1.20675514834) 
+heading error:: 1.43366446788 (82.1429232475) 
+throttle and steering angle ::  2.53611111641 6.89429107296
+
+
+
+2.55555558205
+initial position::  500000.805258 4982950.35052
+car current position ::  1.12255998317 0.0178884761408
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.1517608701
+distance2::  10.4
+desired_pose:: 1.41740649414 (81.2114099688) 
+current heading:: -0.0264432812006 (-1.51508840927) 
+heading error:: 1.44384977534 (82.7264983781) 
+throttle and steering angle ::  2.44444441795 6.8970147326
+
+
+
+2.58333325386
+initial position::  500000.805258 4982950.35052
+car current position ::  1.17442183709 0.0229160981253
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.1389940451
+distance2::  10.4
+desired_pose:: 1.4223857828 (81.4967021939) 
+current heading:: -0.0321743323896 (-1.84345345458) 
+heading error:: 1.45456011519 (83.3401556485) 
+throttle and steering angle ::  2.41666674614 6.90318296523
+
+
+
+2.58333325386
+initial position::  500000.805258 4982950.35052
+car current position ::  1.22684318054 0.0282784132287
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.1260680187
+distance2::  10.4
+desired_pose:: 1.42742746379 (81.785569236) 
+current heading:: -0.0382691618255 (-2.19266145811) 
+heading error:: 1.46569662561 (83.9782306941) 
+throttle and steering angle ::  2.32222223282 6.91054229446
+
+
+
+2.67777776718
+initial position::  500000.805258 4982950.35052
+car current position ::  1.22684318054 0.0282784132287
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.1260680187
+distance2::  10.4
+desired_pose:: 1.42742746379 (81.785569236) 
+current heading:: -0.0382691618255 (-2.19266145811) 
+heading error:: 1.46569662561 (83.9782306941) 
+throttle and steering angle ::  2.32222223282 6.90506929152
+
+
+
+2.72499990463
+initial position::  500000.805258 4982950.35052
+car current position ::  1.33673095185 0.0413379026577
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.0980077388
+distance2::  10.4
+desired_pose:: 1.43801335714 (82.3920962477) 
+current heading:: -0.051672433178 (-2.96061233827) 
+heading error:: 1.48968579032 (85.352708586) 
+throttle and steering angle ::  2.27500009537 6.91566010826
+
+
+
+2.72499990463
+initial position::  500000.805258 4982950.35052
+car current position ::  1.39179120649 0.048605565913
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.0980077388
+distance2::  10.4
+desired_pose:: 1.44333024159 (82.6967312866) 
+current heading:: -0.051672433178 (-2.96061233827) 
+heading error:: 1.49500267477 (85.6573436249) 
+throttle and steering angle ::  2.18333339691 6.91814825222
+
+
+
+2.92777776718
+initial position::  500000.805258 4982950.35052
+car current position ::  1.44891313167 0.056800478138
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.0684207555
+distance2::  10.4
+desired_pose:: 1.44885415076 (83.0132279686) 
+current heading:: -0.0665538830684 (-3.81325661003) 
+heading error:: 1.51540803383 (86.8264845787) 
+throttle and steering angle ::  2.07222223282 6.91438832285
+
+
+
+2.92777776718
+initial position::  500000.805258 4982950.35052
+car current position ::  1.44891313167 0.056800478138
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.0684207555
+distance2::  10.4
+desired_pose:: 1.44885415076 (83.0132279686) 
+current heading:: -0.0665538830684 (-3.81325661003) 
+heading error:: 1.51540803383 (86.8264845787) 
+throttle and steering angle ::  2.07222223282 6.91438832285
+
+
+
+3.03333330154
+initial position::  500000.805258 4982950.35052
+car current position ::  1.50809535698 0.0659088976681
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.0523462606
+distance2::  10.4
+desired_pose:: 1.45458764998 (83.341733276) 
+current heading:: -0.0747723599363 (-4.28414064858) 
+heading error:: 1.52936000992 (87.6258739246) 
+throttle and steering angle ::  1.96666669846 6.91231142911
+
+
+
+3.14444446564
+initial position::  500000.805258 4982950.35052
+car current position ::  1.5724241758 0.0765324654058
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.0345312522
+distance2::  10.4
+desired_pose:: 1.46083244372 (83.6995336007) 
+current heading:: -0.0839888726552 (-4.81220792921) 
+heading error:: 1.54482131637 (88.5117415299) 
+throttle and steering angle ::  1.85555553436 6.90900090188
+
+
+
+3.24722218513
+initial position::  500000.805258 4982950.35052
+car current position ::  1.63252319919 0.0871743122116
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  10.0175294831
+distance2::  10.4
+desired_pose:: 1.46667904501 (84.0345191795) 
+current heading:: -0.0928459074368 (-5.31967864119) 
+heading error:: 1.55952495245 (89.3541978207) 
+throttle and steering angle ::  1.75277781487 6.90470680863
+
+
+
+3.25
+initial position::  500000.805258 4982950.35052
+car current position ::  1.76535520062 0.113060140051
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  9.97881802262
+distance2::  10.4
+desired_pose:: 1.47964911905 (84.7776496815) 
+current heading:: -0.11312817554 (-6.48176700243) 
+heading error:: 1.59277729458 (91.259416684) 
+throttle and steering angle ::  1.75 6.90348815674
+
+
+
+3.44444441795
+initial position::  500000.805258 4982950.35052
+car current position ::  1.76535520062 0.113060140051
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  9.97881802262
+distance2::  10.4
+desired_pose:: 1.47964911905 (84.7776496815) 
+current heading:: -0.11312817554 (-6.48176700243) 
+heading error:: 1.59277729458 (91.259416684) 
+throttle and steering angle ::  1.55555558205 6.89230945784
+
+
+
+3.55277776718
+initial position::  500000.805258 4982950.35052
+car current position ::  1.89740505116 0.142102921382
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  9.93871185873
+distance2::  10.4
+desired_pose:: 1.4926147644 (85.5205264391) 
+current heading:: -0.134092822559 (-7.68295279562) 
+heading error:: 1.62670758696 (93.2034792347) 
+throttle and steering angle ::  1.44722223282 6.8782521654
+
+
+
+3.6472222805
+initial position::  500000.805258 4982950.35052
+car current position ::  1.89740505116 0.142102921382
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  9.93871185873
+distance2::  10.4
+desired_pose:: 1.4926147644 (85.5205264391) 
+current heading:: -0.134092822559 (-7.68295279562) 
+heading error:: 1.62670758696 (93.2034792347) 
+throttle and steering angle ::  1.3527777195 6.87284792506
+
+
+
+3.75277781487
+initial position::  500000.805258 4982950.35052
+car current position ::  1.96770678478 0.158901642077
+goal current position ::  2.67363773968 10.0504557726
+nearest point on the path::  0.0 0.0
+distance::  9.91671223895
+distance2::  10.4
+desired_pose:: 1.49955007979 (85.9178907407) 
+current heading:: -0.14553886215 (-8.33876255634) 
+heading error:: 1.64508894194 (94.2566532971) 
+throttle and steering angle ::  1.24722218513 6.85972181987
+
+
+
+3.7416665554
+initial position::  500000.805258 4982950.35052
+car current position ::  2.11320264597 0.196733106859
+goal current position ::  2.88069951624 10.4087256808
+nearest point on the path::  0.00399993333367 0.399980000167
+distance::  10.2407931224
+distance2::  10.4139517278
+desired_pose:: 1.49578092928 (85.701934324) 
+current heading:: -0.169701048181 (-9.72315383973) 
+heading error:: 1.66548197746 (95.4250881638) 
+throttle and steering angle ::  1.2583334446 6.85013791387
+
+
+
+3.83333325386
+initial position::  500000.805258 4982950.35052
+car current position ::  2.11320264597 0.196733106859
+goal current position ::  2.88069951624 10.4087256808
+nearest point on the path::  0.00399993333367 0.399980000167
+distance::  10.2407931224
+distance2::  10.4139517278
+desired_pose:: 1.49578092928 (85.701934324) 
+current heading:: -0.169701048181 (-9.72315383973) 
+heading error:: 1.66548197746 (95.4250881638) 
+throttle and steering angle ::  1.16666674614 6.84491695097
+
+
+
+3.94166660309
+initial position::  500000.805258 4982950.35052
+car current position ::  2.26142082241 0.239408418536
+goal current position ::  2.88069951624 10.4087256808
+nearest point on the path::  0.00399993333367 0.399980000167
+distance::  10.1881558528
+distance2::  10.4139517278
+desired_pose:: 1.5099746549 (86.5151748977) 
+current heading:: -0.195068576426 (-11.1766061449) 
+heading error:: 1.70504323133 (97.6917810426) 
+throttle and steering angle ::  1.05833339691 6.81192704339
+
+
+
+3.94166660309
+initial position::  500000.805258 4982950.35052
+car current position ::  2.341794434 0.26443166472
+goal current position ::  2.88069951624 10.4087256808
+nearest point on the path::  0.00399993333367 0.399980000167
+distance::  10.1585983173
+distance2::  10.4139517278
+desired_pose:: 1.51772225578 (86.9590797293) 
+current heading:: -0.20899922429 (-11.9747734733) 
+heading error:: 1.72672148007 (98.9338532026) 
+throttle and steering angle ::  1.01944446564 6.79328834926
+
+
+
+4.044444561
+initial position::  500000.805258 4982950.35052
+car current position ::  2.341794434 0.26443166472
+goal current position ::  2.88069951624 10.4087256808
+nearest point on the path::  0.00399993333367 0.399980000167
+distance::  10.1585983173
+distance2::  10.4139517278
+desired_pose:: 1.51772225578 (86.9590797293) 
+current heading:: -0.20899922429 (-11.9747734733) 
+heading error:: 1.72672148007 (98.9338532026) 
+throttle and steering angle ::  0.955555438995 6.78748025226
+
+
+
+4.044444561
+initial position::  500000.805258 4982950.35052
+car current position ::  2.41443129443 0.288092343137
+goal current position ::  2.88069951624 10.4087256808
+nearest point on the path::  0.00399993333367 0.399980000167
+distance::  10.1313683779
+distance2::  10.4139517278
+desired_pose:: 1.52475782955 (87.3621884127) 
+current heading:: -0.22178308463 (-12.7072347167) 
+heading error:: 1.74654091418 (100.069423129) 
+throttle and steering angle ::  0.955555438995 6.76801060932
+
+
+
+4.11944437027
+initial position::  500000.80
