@@ -97,7 +97,7 @@ class purePursuit:
 		self.car_current_y = None 
 		self.car_current_heading = None
 		self.current_speed = None
-
+		self.steering_ratio = rospy.get_param("/vehicle/twist_controller/steering_ratio")
 		rospy.Subscriber("/vehicle/perfect_gps/utm",Vector3Stamped,self.callback_utm)
 		rospy.Subscriber("/vehicle/perfect_gps/heading",Float64,self.callback_heading)
 		rospy.Subscriber("/vehicle/twist",TwistStamped,self.callback_twist)
@@ -192,15 +192,15 @@ class purePursuit:
 
 		# print "heading error:: ",error
 
-		if error < -3.14159:
-			# print "error is below -pi"
-			error += 2*3.14159
-		elif error > 3.14159:
-			# print "error is above pi"
-			error -= 2*3.14159
-		else:
-			# print "error is in between -pi and pi"
-			pass
+		# if error < -3.14159:
+		# 	# print "error is below -pi"
+		# 	error += 2*3.14159
+		# elif error > 3.14159:
+		# 	# print "error is above pi"
+		# 	error -= 2*3.14159
+		# else:
+		# 	# print "error is in between -pi and pi"
+		# 	pass
 
 		L = 2.6
 		ld = 10
@@ -208,7 +208,7 @@ class purePursuit:
 		self.throttle = self._PIDControl(self.target_speed,self.current_speed)
 		# self.throttle = min(self.throttle,0.2)
 		# self.steering = np.arctan(2*L*sin(error)/(kl*self.throttle))
-		self.steering = np.arctan2(2*L*sin(error),Lf)
+		self.steering = self.steering_ratio * np.arctan2(2*L*sin(error),Lf)
 		# self.steering = error
 
 
@@ -249,7 +249,7 @@ class purePursuit:
 		reset_world = rospy.ServiceProxy('/gazebo/reset_world', Empty)
 		reset_world()
 		print "exiting..."
-		sys.exit(1)
+		return
 
 def main():
 	global points

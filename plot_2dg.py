@@ -40,9 +40,10 @@ class DynamicUpdate():
         if(bool(len(self.xdata))):
         	self.ax.plot(self.xdata[-1],self.ydata[-1],'ro')
         self.lines, = self.ax.plot(self.xdata,self.ydata,color='g', linewidth=2.0)
-        self.lines1, = self.ax.plot(self.xdata1,self.ydata1,color='r', linewidth=1.0)
+        self.lines1, = self.ax.plot([],[],'ro')
+        self.lines2, = self.ax.plot(self.xdata1,self.ydata1,color='r', linewidth=2.0)
         # self.dots, = self.ax.plot([],[],'ro')
-        # self.ax.set_autoscaley_on(True)
+        self.ax.set_autoscaley_on(True)
         self.ax.set_xlabel('X (m)')
         self.ax.set_ylabel('Y (m)')
         self.ax.set_ylim([-40.0, 40.0])
@@ -54,36 +55,51 @@ class DynamicUpdate():
         # print goalx,goaly
         i+=1
         self.xdata.append(x)
-        self.xdata1.append(goalx)
+        # self.xdata1.append(goalx)
         self.ydata.append(y)
-        self.ydata1.append(goaly)
+        # self.ydata1.append(goaly)
         self.x = x
         self.y = y
         self.lines.set_data(self.xdata,self.ydata)
-        self.lines1.set_data(self.xdata1,self.ydata1)
+        self.lines2.set_data([x,goalx],[y,goaly])
+        self.lines1.set_data(goalx,goaly)
+        # self.lines1.set_data(self.xdata1,self.ydata1)
         # self.dots.set_data([goalx],[goaly])
-        # self.ax.relim()
-        # self.ax.autoscale_view()
+        self.ax.relim()
+        self.ax.autoscale_view()
         #We need to draw *and* flush
         self.fig.canvas.draw()
         self.fig.canvas.flush_events()
 
+def callback_utm(data):
+    global first,init_x,init_y,x,y
+    if(first):
+        init_x = data.vector.x
+        init_y = data.vector.y
+        first = False
+    else:
+        x = data.vector.x - init_x
+        y = data.vector.y - init_y
 
+def callback_goalx(data):
+    global goalx
+    goalx = data.data
+
+def callback_goaly(data):
+    global goaly
+    goaly = data.data
 
 rospy.init_node("plot",anonymous=True)
-position_vector = rospy.wait_for_message("/vehicle/perfect_gps/utm",Vector3Stamped)
-
-init_x = position_vector.vector.x
-init_y = position_vector.vector.y
-points = points + np.array([init_x,init_y])
+first = True
+# position_vector = rospy.wait_for_message("/vehicle/perfect_gps/utm",Vector3Stamped)
+rospy.Subscriber("/vehicle/perfect_gps/utm",Vector3Stamped,callback_utm)
+rospy.Subscriber("/goalx",Float64,callback_goalx)
+rospy.Subscriber("/goaly",Float64,callback_goaly)
+points = points
 plot = DynamicUpdate(points)
-
-
+x,y,goalx,goaly = 0,0,0,0
+r = rospy.Rate(30)
 while not rospy.is_shutdown():
-    pos=rospy.wait_for_message("/vehicle/perfect_gps/utm",Vector3Stamped)
-    goalx = rospy.wait_for_message('/goalx',Float64)
-    goaly = rospy.wait_for_message('/goaly',Float64)
-    print goalx,goaly
-    x=pos.vector.x
-    y=pos.vector.y
-    plot.PlotData(x,y,goalx.data,goaly.data)
+    # global x,y,init_x,init_y,goalx,goaly
+    plot.PlotData(x,y,goalx,goaly)
+    r.sleep()
